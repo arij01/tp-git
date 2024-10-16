@@ -15,7 +15,7 @@ import java.util.Set;
 public class Etudiant {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long id;
+    long idEt;
     String nomEt;
     String prenomEt;
     long cin;

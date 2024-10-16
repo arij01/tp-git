@@ -16,9 +16,9 @@ import java.util.Set;
 public class Foyer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long idFoyer1;
-    String nomFoyer1;
-    long capaciteFoyer1;
+    long idFoyer;
+    String nomFoyer;
+    long capaciteFoyer;
     //ASSOCIATIONS
     @OneToOne( mappedBy = "foyer")
     @JsonIgnore
